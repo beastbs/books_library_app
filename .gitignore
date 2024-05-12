@@ -1,0 +1,11 @@
+# files
+/node_modules
+
+# system
+.DS_Store
+
+# dotenv environment variables file
+.env
+
+# compiled output
+/build

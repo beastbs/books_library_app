@@ -1,0 +1,29 @@
+{
+  "name": "books_library",
+  "version": "1.0.0",
+  "description": "Gook books app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "books",
+    "books library"
+  ],
+  "author": "Botis C. <beastbs.dev@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^9.2.0",
+    "globals": "^15.2.0",
+    "rollup": "^4.17.2",
+    "rollup-plugin-import-css": "^3.5.0",
+    "rollup-plugin-live-server": "^2.0.0"
+  }
+}
