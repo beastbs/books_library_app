@@ -1,0 +1,16 @@
+.favorites{
+	padding-top: 25px;
+}
+.favorites__list{
+	margin-bottom: 50px;
+}
+.favorites__title{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.favorites > a{
+	padding-left: 50px;
+}
+.favorites > a:hover{
+	text-decoration: underline;
+}

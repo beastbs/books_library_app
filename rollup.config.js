@@ -1,6 +1,9 @@
 import css from 'rollup-plugin-import-css';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
-import {liveServer} from 'rollup-plugin-live-server';
+import image from '@rollup/plugin-image';
+
+import serve from 'rollup-plugin-serve'
+import livereload from 'rollup-plugin-livereload'
 
 export default {
   input: './src/app.js',
@@ -14,10 +17,11 @@ export default {
       output: "bundle.min.css",
       minify: true,
    }),
+   image(),
    nodeResolve(),
-   liveServer({
-      port: 8001,
-      open: true,
-   })
+   serve({
+      open: true
+   }),
+   livereload()
 ],
 };

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@300;400;700;900&display=swap');
+
+:root{
+	--black: #121212;
+	--white: #fafafa;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: var(--black);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button{
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}

@@ -1,4 +1,60 @@
-.main-button{
-	color:#fff;
-	background-color: red;
+.card{
+	width: 280px;
+	border-radius: 10px;
+	overflow: hidden;
+	font-size: 16px;
+	line-height: 24px;
+	cursor: pointer;
+}
+.card__img{
+	background-color: #B8B8B8;
+	text-align: center;
+	padding-top: 25px;
+}
+.card__img > img{
+	height: 276px;
+	margin-bottom: -7px;
+}
+.card__info{
+	background-color: var(--black);
+	color: var(--white);
+	padding: 15px;
+}
+.card__tag{
+	color: #DEDEDE;
+	font-weight: 300;
+	margin-bottom: 5px;
+}
+.card__name{
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+.card__author{
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+
+.card__footer{
+	width: 40px;
+	height: 40px;
+	border: 2px solid var(--white);
+	background-color: var(--black);
+	border-radius: 8px;
+	transition: background .2s ease;
+}
+.card__footer:hover{
+ background-color: rgb(78, 78, 80);
+}
+.card__footer > .button-add{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	background: none;
+}
+
+.button-active {
+	background-color: var(--white);
 }
